@@ -8,7 +8,7 @@ import { Contact } from '../models/contact';
 })
 export class ContactService {
   //private apiUrl = 'http://localhost:5000/api/contacts';
-  private apiUrl = 'https://mean-frdb.onrender.com';
+  private apiUrl = 'https://mean-frdb.onrender.com/api/contacts';
 
   constructor(private http: HttpClient) {}
 
